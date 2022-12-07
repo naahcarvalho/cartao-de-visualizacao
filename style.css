@@ -56,7 +56,7 @@ body {
 .container .card .imagem {
     width: 940px;
     max-width: 100%;
-    background-image: url(images/image-product-desktop.jpg);
+    background-image: url(imagens/image-product-desktop.jpg);
     background-size: cover;
 }
 
@@ -65,7 +65,7 @@ body {
         width: 370px;
         height: 230px;
         max-width: 100%;
-        background-image: url(images/image-product-mobile.jpg);
+        background-image: url(imagens/image-product-mobile.jpg);
         background-size: cover;
     }
 }
