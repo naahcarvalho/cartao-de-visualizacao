@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root {
+    --verde-claro: hsl(158, 36%, 37%);
+    --creme: hsl(30, 38%, 92%);
+    --branco: hsl(0, 0%, 100%);
+    --cinza-escuro: hsl(212, 21%, 14%);
+    --cinza-claro: hsl(228, 12%, 48%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+   background-color: var(--creme);
+   font-family: 'Montserrat';
+}
+
+.card {
+    transition: 0.35s;
+}
+
+.container {
+    width: 100vw;
+    height: 90vh;
+    display: grid;
+    place-content: center;
+    background-color: var(--creme);
+}
+
+.container .card {
+    width: 560px;
+    height: 400px;
+    display: flex;
+    background-color: var(--branco);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .container .card {
+        width: 330px;
+        flex-direction: column;
+        height: 600px;
+    }
+}
+
+.container .card .imagem {
+    width: 940px;
+    max-width: 100%;
+    background-image: url(images/image-product-desktop.jpg);
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .container .card .imagem {
+        width: 370px;
+        height: 230px;
+        max-width: 100%;
+        background-image: url(images/image-product-mobile.jpg);
+        background-size: cover;
+    }
+}
+
+.container .card .conteudo {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.container .card .conteudo p:first-child {
+    color: var(--cinza-claro);
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.container .card .conteudo h2 {
+    color: var(--cinza-escuro);
+    font-size: 34px;
+    font-weight: 700;
+    font-family: "Fraunces", serif;
+    line-height: 1;
+}
+
+.container .card .conteudo .paragrafo {
+    font-size: 14px;
+    color: var(--cinza-claro);
+    line-height: 1.5;
+}
+
+.container .card .conteudo .preco {
+    font-family: "Fraunces", serif;
+    font-size: 34px;
+    color: var(--verde-claro);
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.container .card .conteudo .preco span {
+    font-size: 13px;
+    color: var(--cinza-claro);
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.container .card .botao a {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 13px 10px;
+    text-decoration: none;
+    background-color: var(--verde-claro);
+    border-radius: 6px;
+    color: var(--branco);
+    transition: 0.35s;
+}
+
+.container .card .botao:hover a {
+    background-color: #1a4031;
+}
+
+.container .card .botao a svg {
+    margin-right: 5px;
+}
+
+.atributo {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: var(--cinza-escuro);
+    font-size: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.atributo a {
+    color: purple;
+    text-decoration: none;
+}
