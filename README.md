@@ -4,7 +4,7 @@ Frontend Mentor - Componente do cartão de visualização do produto
 
 ## Seja Bem Vindo! 👋
 
-Fiz um cartão de visuzalição simples feito com HTML e CSS.
+Fiz um cartão de visualização simples usando HTML e CSS.
 
 Segue o site:
 
