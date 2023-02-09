@@ -1,7 +1,7 @@
 <h1 align="center">Frontend Mentor - Componente do cartão de visualização do produto</h1>
 
 <p align="center">
-  <img alt="cartão de visualização" src=".github/preview.jpeg" width="100%">
+  <img alt="cartão de visualização" src=".github/preview.png" width="70%">
 </p>
 
 ### Tecnologias
