@@ -1,12 +1,20 @@
-<h1>
-Frontend Mentor - Componente do cartão de visualização do produto
-</h1>
+<h1 align="center">Frontend Mentor - Componente do cartão de visualização do produto</h1>
 
-## Seja Bem Vindo! 👋
+<p align="center">
+  <img alt="cartão de visualização" src=".github/preview.jpeg" width="100%">
+</p>
 
-Fiz um cartão de visualização simples usando HTML e CSS.
+### Tecnologias
 
-Segue o site:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-# https://frontendmentor-naahcarvalho.netlify.app/
+- HTML
+- CSS
 
+### Projeto
+
+Fiz um cartão de visualização de um Perfume!!
+
+- [Visite o projeto online](https://frontendmentor-naahcarvalho.netlify.app/)
+
+Esse projeto foi feito por Naah Carvalho ♥
